@@ -12,11 +12,14 @@ gmaps = googlemaps.Client(key='AIzaSyCxtHfoUzG4J8NdqZ60uk8FaU_v50iXwk4')
 
 def get_class_info():
     try:
-        df = pd.read_csv("C:\\Users\\talvi\\5to9club database2.csv")
+        # Use the raw GitHub URL of your CSV file
+        csv_url = "https://raw.githubusercontent.com/username/repository/branch/5to9club_database2.csv"
+        df = pd.read_csv(csv_url)
         return df.to_dict('records')  # Convert DataFrame to a list of dictionaries
     except Exception as e:
         st.error(f"Failed to load class info: {e}")
         return []
+
 
 def calculate_travel_time(origin, destination):
     try:
