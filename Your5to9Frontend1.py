@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title('Your 5 to 9 club')
 st.header('Helping you put the life into your work-life balance')
-st.divider()
+#st.divider()
 
 # Define your columns
 col1, col2, col3 = st.columns(3)
@@ -25,7 +25,7 @@ with col3:
 # Button to find classes
 Recommend_classes = st.link_button('Find Me Classes','https://your5to9-mx4zyntqxwkkrz9f64ejps.streamlit.app/', type = 'primary')
 Show_all_classes = st.link_button('Show All Classes', 'https://app.nocodemapapp.com/app/KPC9LXprRob5i8INbUM6')
-st.divider()
+#st.divider()
 st.subheader('About Us')
 
 col1, col2= st.columns([0.2, 0.8])
