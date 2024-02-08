@@ -23,8 +23,13 @@ with col3:
 
 
 # Button to find classes
-Recommend_classes = st.link_button('Find Me Classes','https://your5to9-mx4zyntqxwkkrz9f64ejps.streamlit.app/', type = 'primary')
-Show_all_classes = st.link_button('Show All Classes', 'https://app.nocodemapapp.com/app/KPC9LXprRob5i8INbUM6')
+if st.button('Find Me Classes'):
+    # Use st.markdown to create a clickable link
+    st.markdown("[Click here to find classes](https://your5to9-mx4zyntqxwkkrz9f64ejps.streamlit.app/)", unsafe_allow_html=True)
+
+if st.button('Show All Classes'):
+    # Use st.markdown to create a clickable link
+    st.markdown("[Click here to show all classes](https://app.nocodemapapp.com/app/KPC9LXprRob5i8INbUM6)", unsafe_allow_html=True)
 #st.divider()
 st.subheader('About Us')
 
