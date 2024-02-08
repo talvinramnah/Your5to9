@@ -13,7 +13,7 @@ gmaps = googlemaps.Client(key='AIzaSyCxtHfoUzG4J8NdqZ60uk8FaU_v50iXwk4')
 def get_class_info():
     try:
         # Use the raw GitHub URL of your CSV file
-        csv_url = "https://raw.githubusercontent.com/username/repository/branch/5to9club_database2.csv"
+        csv_url = "https://raw.githubusercontent.com/talvinramnah/Your5to9/main/5to9club%20database2.csv"
         df = pd.read_csv(csv_url)
         return df.to_dict('records')  # Convert DataFrame to a list of dictionaries
     except Exception as e:
