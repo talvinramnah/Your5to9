@@ -29,7 +29,7 @@ if st.button('Find Me Classes'):
 
 if st.button('Show All Classes'):
     # Use st.markdown to create a clickable link
-    st.markdown("[Click here to show all classes](https://app.nocodemapapp.com/app/KPC9LXprRob5i8INbUM6)", unsafe_allow_html=True)
+    st.markdown("[Click here to show all classes](https://app.nocodemapapp.com/map/KPC9LXprRob5i8INbUM6)", unsafe_allow_html=True)
 #st.divider()
 st.subheader('About Us')
 
