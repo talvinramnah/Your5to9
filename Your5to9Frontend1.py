@@ -38,8 +38,10 @@ with col1:
     st.image('https://media.licdn.com/dms/image/D4E03AQFgLf0cupxD0w/profile-displayphoto-shrink_200_200/0/1696936875274?e=1712793600&v=beta&t=L3AEc9bNKZ2tNNRiB0tzO50vmINhAdaBtuijpcTgkZs')
 
 with col2:
-    st.write("Hi I'm Talvin, I created Your5to9club because I'm tired of having boring conversations at parties. It all started one night at my mates birthday where I was contstanly asked 'so, what do you do?'. I hate that question, and I've much prefer to discuss each others passions, interests and hobbies")
-
+    st.write("""Hi I'm Talvin, I built your 5 to 9 club to help young professional discover new hobbies and meet new people.
+             I found that a lot of people feel like their entire identity is their job, 
+             and although they want to do more it can be hard to fit new hobbies around their 9 to 5. 
+             I hope you enjoy using the app, and if you have any feedback please let me know.""")
 # st.page_link('Discover London', 'https://app.nocodemapapp.com/app/KPC9LXprRob5i8INbUM6')
 # st.page_link('Book a class', 'https://app.nocodemapapp.com/app/KPC9LXprRob5i8INbUM6', 'coming soon')
 # st.page_link('View all classes', 'https://app.nocodemapapp.com/app/KPC9LXprRob5i8INbUM6')
