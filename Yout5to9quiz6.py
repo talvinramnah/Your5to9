@@ -62,7 +62,8 @@ def recommend_classes(user_address, selected_themes):
         st.error(f"Failed to recommend classes: {e}")
         return pd.DataFrame()
 
-st.title('Discover arts classes in London that fit your schedule and interests')
+st.title('The 5 To 9 Club Personality Test')
+st.subheader('Answer these questions and find out what arts classes match your personality and 9-5 schedule')
 
 with st.form('quiz'):
     address = st.text_input('Enter your office address')
