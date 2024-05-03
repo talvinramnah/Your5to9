@@ -89,8 +89,8 @@ with st.form('quiz'):
         ['Introvert', 'Extrovert']
     )
 
-    office_address = st.text_input('Enter your office address')
-    home_address = st.text_input('Enter your home address')
+    office_address = st.text_input('Enter your office address (we do not save any user data)')
+    home_address = st.text_input('Enter your home address (we do not save any user data)')
     sort_preference = st.selectbox('Sort results by travel time from:', ['Office', 'Home'])
     submit = st.form_submit_button('Submit')
 
