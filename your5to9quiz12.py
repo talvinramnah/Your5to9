@@ -74,7 +74,7 @@ with st.form('quiz'):
         ['Trendy and Social like Starbucks', 'Warm and Welcoming like Costa', 'Artistic and Bohemian like Cafe Nero', 'Efficient and Organized like Pret A Manger', 'Down-to-earth and Comforting like Greggs', 'Hipster and Edgy like Blank Street', 'Elegant and Refined like Rosslyn', 'Balanced and Healthy like I do not drink coffee', 'Diverse and Eclectic like Other']
     )
 
-    wfh_schedule = st.checkbox(
+    wfh_schedule = st.multiselect(
         'What days do you normally WFH?',
         ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
     )
