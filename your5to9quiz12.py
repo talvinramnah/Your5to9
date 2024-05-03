@@ -66,12 +66,12 @@ with st.form('quiz'):
 
     lunch_spot = st.radio(
         'If you were a London lunch spot, what would you be?',
-        ['Efficient and Organized like Pret A Manger', 'Zen and Balanced like Itsu', 'Energetic and Vibrant like Leon', 'Spicy and Bold like Wasabi', 'Practical and Budget-conscious like Tesco', 'Sophisticated and Elegant like Marks And Spencers', 'Practical and Dependable like Boots', 'Down-to-earth and Comforting like Greggs', 'Resourceful and Independent like Got My Life Together and Bring It from Home', 'Unique and Eclectic like Other']
+        ['Efficient and Organized like Pret A Manger', 'Zen and Balanced like Itsu', 'Energetic and Vibrant like Leon', 'Spicy and Bold like Wasabi', 'Practical and Budget-conscious like Tesco', 'Sophisticated and Elegant like Marks And Spencers', 'Practical and Dependable like Boots', 'Down-to-earth and Comforting like Greggs', 'Resourceful and Independent because I got my life together and bring it from home', 'Other']
     )
 
     coffee_spot = st.radio(
         'If you were a coffee shop, what would you be?',
-        ['Trendy and Social like Starbucks', 'Warm and Welcoming like Costa', 'Artistic and Bohemian like Cafe Nero', 'Efficient and Organized like Pret A Manger', 'Down-to-earth and Comforting like Greggs', 'Hipster and Edgy like Blank Street', 'Elegant and Refined like Rosslyn', 'Balanced and Healthy like I do not drink coffee', 'Diverse and Eclectic like Other']
+        ['Trendy and Social like Starbucks', 'Warm and Welcoming like Costa', 'Artistic and Bohemian like Cafe Nero', 'Efficient and Organized like Pret A Manger', 'Down-to-earth and Comforting like Greggs', 'Hipster and Edgy like Blank Street', 'Elegant and Refined like Rosslyn', 'chilled out and relaxed because I do not drink coffee', 'Other']
     )
 
     wfh_schedule = st.multiselect(
@@ -81,7 +81,7 @@ with st.form('quiz'):
 
     weekend_activity = st.radio(
         'What is your fave weekend vibe?',
-        ['Sociable and Lively like Brunch with friends', 'Intellectual and Cultured like Museum visit', 'Adventurous and Thrill-seeking like Outdoor adventure', 'Fashion-forward and Trendy like Shopping spree', 'Tranquil and Peaceful like Relaxing at home', 'Creative and Unpredictable like Other']
+        ['Sociable and Lively like Brunch with friends', 'Intellectual and Cultured like Museum visit', 'Adventurous and Thrill-seeking like Outdoor adventure', 'Fashion-forward and Trendy like Shopping spree', 'Tranquil and Peaceful like Relaxing at home', 'Other']
     )
 
     introvert_or_extrovert = st.radio(
